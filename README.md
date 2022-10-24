@@ -10,8 +10,8 @@ Key tools: Logistic Regression, K-Fold Cross-Validation, Over/Undersampling, Reg
 Libraries: scikit-learn, imblearn, scipy.stats, seaborn, matplotlib, numpy, pandas
 
 1) Risk Analysis of Debtors for a German Bank (German_Credit_Analysis): <br>
-A German financial services company seeks to utilize data-driven modeling, in order to separate its high-risk customers, with
-notable likelihood of default, from the others. Towards this goal, we're provided by a sample dataset of 1000 clients, 
+A German financial services company seeks to utilize data-driven modeling, in order to separate its high-risk customers with
+sizeable likelihood of default from the rest. Towards this goal, we're provided by a sample dataset of 1000 clients, 
 comprising of features such as client's gender, size of checking and saving accounts, loan duration, home ownership status,
 etc., and are tasked to develop an ML-based classification model, which meets the objective most efficiently and reliably.
 A variety of classification models (Logistic Regression, Random Forest, XGBoost Classifier, etc.) along with model tuning
