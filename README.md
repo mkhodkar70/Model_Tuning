@@ -19,4 +19,14 @@ techniques (resampling, hyperparameter tuning, etc.), aimed at boosing the perfo
 the best model is chosen based on recall score. <br>
 Key tools: Classification, K-Fold Cross-Validation, Over/Undersampling, KNN-based Imputation, Hyperparameter Tuning,
 Productionizing via Pipeline <br>
-Libraries: scikit-learn, imblearn, seaborn, matplotlib, numpy, pandas
+Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
+
+3) Predictive Maintenance of Wind Farm Machineries: <br>
+The encoded sensor data from processes involved in the production of wind energy has been collected by a wind farm 
+equipment manufacturer called "ReneWind". The data consists of two sets: training and testing, respectively with 
+20,000 and 5000 observations. The goal of the data science team is to build ML-based models capable of identifying
+whether generators would fail or not. Towards this end, a wide variety of classification models (Decision Tree, 
+Random Forest, XGBoost, etc.) have been adopted and their performances have been enhanced by leveraging up/downsampling
+and model tuning.  
+Key tools: Classification, K-Fold Cross-Validation, Over/Undersampling, KNN Imputer, Model Tuning, Python Pipelines <br>
+Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
