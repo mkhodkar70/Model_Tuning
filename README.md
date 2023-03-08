@@ -21,7 +21,7 @@ Key tools: Classification, K-Fold Cross-Validation, Over/Undersampling, KNN-base
 Productionizing via Pipeline <br>
 Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
 
-3) Predictive Maintenance of Wind Farm Machineries: <br>
+3) Predictive Maintenance of Wind Farm Machineries (ReneWind): <br>
 The encoded sensor data from processes involved in the production of wind energy has been collected by a wind farm 
 equipment manufacturer called "ReneWind". The data consists of two sets: training and testing, respectively with 
 20,000 and 5000 observations. The goal of the data science team is to build ML-based models capable of identifying
@@ -30,3 +30,14 @@ Random Forest, XGBoost, etc.) have been adopted and their performances have been
 and model tuning.  
 Key tools: Classification, K-Fold Cross-Validation, Over/Undersampling, KNN Imputer, Model Tuning, Python Pipelines <br>
 Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
+
+4) Insurance Classification Project (StateFarmProject):
+The performances of two classification models, one linear (logistic regression) and one an intricate, tree-based model 
+(XGBoost) have been compared on a large, imbalanced, dirty and masked dataset provided by an insurance company
+(State Farm). It's been shown that the XGBoost classifier is able to render AUC scores (the main scoring metric to be 
+evaluated accoridng to the problem statement) noticeably larger than those of the logistic regression model on unseen
+datasets.
+Key tools: Classification, K-Fold Cross-Validation, Undersampling, KNN Imputer, Model Tuning <br>
+Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
+
+
