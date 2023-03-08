@@ -31,12 +31,12 @@ and model tuning.
 Key tools: Classification, K-Fold Cross-Validation, Over/Undersampling, KNN Imputer, Model Tuning, Python Pipelines <br>
 Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
 
-4) Insurance Classification Project (StateFarmProject):
+4) Insurance Classification Project (StateFarmProject): <br>
 The performances of two classification models, one linear (logistic regression) and one an intricate, tree-based model 
 (XGBoost) have been compared on a large, imbalanced, dirty and masked dataset provided by an insurance company
 (State Farm). It's been shown that the XGBoost classifier is able to render AUC scores (the main scoring metric to be 
 evaluated accoridng to the problem statement) noticeably larger than those of the logistic regression model on unseen
-datasets.
+datasets. <br>
 Key tools: Classification, K-Fold Cross-Validation, Undersampling, KNN Imputer, Model Tuning <br>
 Libraries: scikit-learn, xgboost, imblearn, seaborn, matplotlib, numpy, pandas
 
